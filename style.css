@@ -47,14 +47,60 @@ nav > a {
 }
 
 main {
-  width: 95vw;
-  background-color: lightgray;
+  width: 90vw;
   margin-top: 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  color: lightgray;
+  font-family: fantasy;
+  background-color: navy;
+  width: 40vh;
+  height: 5vh;
+  text-align: center;
+  padding-top: 2vh;
+  border-start-end-radius: 90%;
+  border-end-end-radius: 10%;
+  border-start-start-radius: 90%;
+  border-end-start-radius: 10%;
+  border-color: white , blue;
+  border-style: groove;
+}
+
+section {
+  background-color: lightgray;
+  border-radius: 20%;
+  display: flex;
+  align-items: center;
+  width: 80vw;
+}
+
+#home-image {
+  height: 30vh;
+  width: 30vh;
+  border-start-start-radius: 20%;
+  border-end-start-radius: 20%;
+  margin-right: 2vw;
+  border-right-color: navy;
+  border-right-style: solid;
+  border-right-width: 2vh;
+}
+
+h4 {
+  color: lightgray;
+  font-family: fantasy;
+  background-color: navy;
+  width: 45vw;
+}
+
+#home-body {
+  width: 30vw;
 }
 
 img {
   height: 20vh;
   width: 20vh;
 }
-
-
