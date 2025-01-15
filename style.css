@@ -47,7 +47,7 @@ nav > a {
 }
 
 main {
-  width: 95vw;
+  width: 90vw;
   margin-top: 2vw;
   display: flex;
   flex-direction: column;
@@ -55,7 +55,7 @@ main {
 }
 
 h2 {
-  color: white;
+  color: lightgray;
   font-family: fantasy;
   background-color: navy;
   width: 40vh;
@@ -70,9 +70,37 @@ h2 {
   border-style: groove;
 }
 
+section {
+  background-color: lightgray;
+  border-radius: 20%;
+  display: flex;
+  align-items: center;
+  width: 80vw;
+}
+
+#home-image {
+  height: 30vh;
+  width: 30vh;
+  border-start-start-radius: 20%;
+  border-end-start-radius: 20%;
+  margin-right: 2vw;
+  border-right-color: navy;
+  border-right-style: solid;
+  border-right-width: 2vh;
+}
+
+h4 {
+  color: lightgray;
+  font-family: fantasy;
+  background-color: navy;
+  width: 45vw;
+}
+
+#home-body {
+  width: 30vw;
+}
+
 img {
   height: 20vh;
   width: 20vh;
 }
-
-
