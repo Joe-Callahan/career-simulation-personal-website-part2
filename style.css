@@ -1,0 +1,38 @@
+body {
+  background-color: red;
+}
+
+header {
+  background-color: navy;
+  color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: fantasy;
+  width: 95vh;
+  border-end-end-radius: 30%;
+  border-end-start-radius: 30%;
+  margin-bottom: 5vh;
+}
+
+h1 {
+  font-size: 4vh, 5vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 75vh;
+  background-color: black;
+}
+
+nav > a {
+  color: lightgray;
+  text-decoration: none;
+  font-size: 2vh , 2vw;
+}
+
+img {
+  height: 20vh;
+  width: 20vh;
+}
