@@ -70,16 +70,17 @@ h2 {
   border-style: groove;
 }
 
-section {
+#home-container {
   background-color: lightgray;
   border-radius: 20%;
   display: flex;
   align-items: center;
-  width: 80vw;
+  width: 90vw;
+  height: 40vh;
 }
 
 #home-image {
-  height: 30vh;
+  height: 40vh;
   width: 30vh;
   border-start-start-radius: 20%;
   border-end-start-radius: 20%;
@@ -93,14 +94,35 @@ h4 {
   color: lightgray;
   font-family: fantasy;
   background-color: navy;
-  width: 45vw;
+  width: 50vw;
 }
 
-#home-body {
-  width: 30vw;
+#home-main {
+  width: 50vw;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
   height: 20vh;
   width: 20vh;
+}
+
+footer {
+  margin: 5vh;
+  color: lightgray;
+  font-family: fantasy;
+  background-color: navy;
+  width: 40vh;
+  height: 5vh;
+  text-align: center;
+  padding-top: 2vh;
+  border-start-end-radius: 10%;
+  border-end-end-radius: 90%;
+  border-start-start-radius: 10%;
+  border-end-start-radius: 90%;
+  border-color: white , blue;
+  border-style: groove;
+  padding: 2vh;
 }
