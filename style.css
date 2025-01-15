@@ -1,5 +1,8 @@
 body {
   background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
@@ -9,30 +12,49 @@ header {
   flex-direction: column;
   align-items: center;
   font-family: fantasy;
-  width: 95vh;
-  border-end-end-radius: 30%;
-  border-end-start-radius: 30%;
+  width: 75vw;
+  height: 10vw;
+  border-end-end-radius: 35%;
+  border-end-start-radius: 35%;
   margin-bottom: 5vh;
+  border-color: white , blue;
+  border-style: groove;
+}
+
+header > div {
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
-  font-size: 4vh, 5vw;
+  font-size: 4vh;
+  font-size: 4vw;
 }
 
 nav {
   display: flex;
   justify-content: space-around;
-  width: 75vh;
+  width: 75vw;
+  height: 5vh;
   background-color: black;
 }
 
 nav > a {
   color: lightgray;
   text-decoration: none;
-  font-size: 2vh , 2vw;
+  font-size: 2vh;
+  font-size: 2vw;
+}
+
+main {
+  width: 95vw;
+  background-color: lightgray;
+  margin-top: 2vw;
 }
 
 img {
   height: 20vh;
   width: 20vh;
 }
+
+
