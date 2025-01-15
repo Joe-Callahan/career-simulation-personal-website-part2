@@ -81,7 +81,7 @@ h2 {
 
 #home-image {
   height: 40vh;
-  width: 30vh;
+  width: 33vw;
   border-start-start-radius: 20%;
   border-end-start-radius: 20%;
   margin-right: 2vw;
@@ -131,7 +131,7 @@ h3 {
 
 img {
   height: 20vh;
-  width: 20vh;
+  width: 20vw;
   border-radius: 25%;
 }
 
@@ -141,8 +141,31 @@ img {
   font-family: fantasy;
 }
 
+form {
+  background-color: lightgray;
+  border-radius: 20%;
+  width: 90vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vh;
+}
+
+#contact-name-email {
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+  gap: 1vw;
+}
+
+#message-text-box {
+  height: 10vh;
+  width: 30vw;
+}
+
 footer {
-  margin: 5vh;
+  margin: 2vh;
   color: lightgray;
   font-family: fantasy;
   background-color: navy;
@@ -156,5 +179,42 @@ footer {
   border-end-start-radius: 90%;
   border-color: white , blue;
   border-style: groove;
-  padding: 2vh;
+  padding: 1vh;
+}
+
+@media (max-width: 500px) {
+  #home-container {
+    flex-direction: column;
+    width: 80vw;
+    height: 70vh;
+  }
+
+  #home-image {
+    padding: 1vh;
+    height: 30vh;
+    width: 40vw;
+    border: none;
+  }
+  
+
+  h4 {
+    width: 60vw;
+  }
+
+  #home-main {
+    width: 60vw;
+    height: 40vh;
+  }
+
+  .content-container {
+    width: 90vw;
+    height: 70vh;
+  }
+  
+  .image-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    align-items: center;
+  }
 }
